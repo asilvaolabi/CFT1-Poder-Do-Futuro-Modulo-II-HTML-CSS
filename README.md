@@ -51,6 +51,14 @@ Para o módulo I usaremos as seguintes tecnologias:
 - [link do protótipo do projeto final](https://www.figma.com/file/dykEV9jRKyK7K83CQ74zfP/Portfolio-Ciclo-Formativo-II---M%C3%B3dulo-I?node-id=0%3A1)
 
 ---
+
+<br>
+
+## `Apresentação da aula`
+
+- [link da apresentação](https://docs.google.com/presentation/d/1akCKczjv3oPmd6NqQ2cQ4DL6Im2pY3Z8XV6Dv4B4sLo/edit?usp=sharing)
+
+--- 
 <br>
 _Vai incrível caminharmos juntas! Qualquer dúvida ou sugestão, fala comigo!!!_
 <br>
