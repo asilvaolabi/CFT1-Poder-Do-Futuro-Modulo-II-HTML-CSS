@@ -1,0 +1,64 @@
+!
+<!DOCTYPE html>
+<html lang="pt/br">
+<!-- cabeçalho que o usuario nao ve -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Almoço de Domingo</title>
+    <link rel="stylesheet" href="receitas.css">
+    <!-- com essa tag script conseguimos puxar icones da biblioteca da internet -->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+    <!-- Div é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos -->
+    <div class="container">
+        <!-- header é utilizado para representar o cabeçalho de um documento ou seção declarado no HTML -->
+        <header class="principal">
+            <h1>Receitinhas para um almoço de domingo</h1>
+
+            <!--figure é uma marcação de uso específico para a inserção de uma figura -->
+            <figure>
+                <div id="bg">
+                    <img src="./img/almoco.png" alt="imagem de almoço de domingo" width="100%" height="300px">
+                </div>
+                <figcaption class="legend"> Receitas para um almoço de domingo</figcaption>
+            </figure>
+        </header>
+
+        <!-- Main especifica o conteúdo principal e, consequentemente, de maior relevância dentro da página -->
+        <main class="content">
+
+            <!-- criando uma tabela -->
+            <table>
+                <!-- cabeçalho da nossa tabela -->
+                <thead>
+                    <!-- tags de titulos da nossa tabela -->
+                    <th>Fricassê de Frango</th>
+                    <th>Bolo de Cenoura</th>
+                </thead>
+
+                <!-- corpo da nossa tabela -->
+                <tbody>
+                    <!-- tr = row(em portugues significa linha) -->
+                    <tr>
+                        <!-- tr = colunas -->
+                        <td><a href="fricasse.html" target="_blank"><img src="img/fricasse.png" alt="imagem de um fricasse de frango" width="270" height="165"></a></td>
+                        <td><a href="boloCenoura.html" target="_blank"><img src="img/bolo.png" width="270" height="165" alt="imagem de um bolo de cenoura"></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <!-- footer representa um rodapé de um documento, como a área presente no final de uma página web -->
+    <footer class="credits">
+        <!-- inserindo um icone puxando um icone da internet com a tag <i> -->
+        <i class="fab fa-github-square estilo-icon"></i>
+        <a href="https://github.com/asilvaolabi/CFT1-Poder-Do-Futuro-Modulo-II-HTML-CSS" target="_blank" id="mypage">
+            By @asilvaolabi</a>
+    </footer>
+</body>
+
+</html>

@@ -56,7 +56,9 @@ Para o módulo I usaremos as seguintes tecnologias:
 
 ## `Apresentação da aula`
 
-- [link da apresentação](https://docs.google.com/presentation/d/1akCKczjv3oPmd6NqQ2cQ4DL6Im2pY3Z8XV6Dv4B4sLo/edit?usp=sharing)
+- [link da apresentação de HTML](https://docs.google.com/presentation/d/1akCKczjv3oPmd6NqQ2cQ4DL6Im2pY3Z8XV6Dv4B4sLo/edit?usp=sharing)
+
+- [link da apresentação de CSS](https://docs.google.com/presentation/d/1rE4FdBzg2VdG_iheqd4CAJ4EybUWlSTedr4eoOk2Hwc/edit?usp=sharing)
 
 --- 
 <br>
