@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EAEAEA;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container{
+  background-color: #ffffff;
+  color: #39393A;
+  border-radius: 10px;
+  width: 70%;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.principal h1{
+  font-size: 28px;
+  text-align: center;
+  color: #1B1B1B;
+  margin-bottom: 10px;
+}
+.principal figure #bg{
+  background-image: url(assets/samacaca.jpg);
+  height: 100%;
+}
+
+.principal figure img{
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 12px auto 10px auto;
+}
+
+.principal figure .legend{
+  text-align: right;
+  font-style: italic;
+  font-size: 12px;
+  color: #8F8F8F;
+}
+
+.content{
+  line-height: 30px;
+  list-style-position: inside;
+  padding: 40px;
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+  color: #1B1B1B;
+}
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 70px;
+}
+#mypage{
+  text-decoration: none;
+  color: #8F8F8F;
+}
+
+table {
+  border: 2px solid #DCDCDC;
+  width: 50% !important; /*Importante manter o !important rs */
+  margin: auto;
+}
+
+td{
+  padding: 24px;
+  text-align: center;
+}
+
+button{
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #D8BFD8;
+  text-align: center;
+}
+
+.estilo-icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.sendby {
+  margin-top: 10px;
+}
