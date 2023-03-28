@@ -1,0 +1,51 @@
+body {
+  background-color: palevioletred;  /*cor de fundo */
+}
+
+h1{
+  text-align: center;  /*posição do texto */
+} 
+
+p{
+  /*tipos de fonte */
+  font-family: 'Courier New'; 
+  font-size: large;
+  font-weight: 65px;
+  line-height: 35px; /*distância entre linhas*/
+}
+
+#corpo{
+  background-color: palegreen;
+  color: wheat; /*cor do texto */
+  width: 70%; /*largura */
+  margin: 30px auto; 
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border: 5px; 
+  align-items: center;
+  border-color: blue;
+  border-style:dotted;
+  }
+  
+.sessao_conteudo{
+  text-align: center;
+  height: 70px; /* altura */
+  background-color: green;
+}
+
+/*
+padding: define o espaçamento nos 4 lados;
+padding-top: define o espaçamento superior;
+padding-right: define o espaçamento à direita;
+padding-bottom: define o espaçamento inferior;
+padding-left: define o espaçamento à esquerda; 
+
+margin: define a margem nos 4 lados do elemento;
+margin-top: define a margem superior;
+margin-right: define a margem  à direita;
+margin-bottom: define a margem  inferior;
+margin-left: define a margem à esquerda; 
+*/
