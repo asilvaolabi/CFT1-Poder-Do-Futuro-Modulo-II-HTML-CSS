@@ -14,33 +14,34 @@
 
 <body>
   <!-- cabeçalho da nossa página, visível ao usuário -->
-  <header>
+  <header class="header-menu">
     <nav>
-      <ul>
-        <li>Formação</li>
-        <li>Portfólio</li>
-        <li>Contato</li>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- corpo da nossa página, visível ao usuário -->
   <main>
-    <section>
-      <div>
-        <img src="img/foto-perfil.png" alt="Minha imagem de perfil">
-      </div>
-      <div>
-        <h1>Amanda Silva</h1>
-        <h2>Desenvolvedora Front-End</h2>
-      </div>
-      <div>
-        <p>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+        <div>
+          <img src="img/foto-perfil.png">
+        </div>
+        <div>
+          <h1 class="nome-completo">Amanda Silva</h1>
+          <h2 class="profissao">Desenvolvedora Front-end</h2>
+        </div>
+        <div class="texto-sobre">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
           metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, ut
-        </p>
-      </div>
+        </div>
+      </article>
     </section>
+
     <section>
       <div>
         <h3>Formação</h3>
@@ -67,6 +68,7 @@
       </div>
 
     </section>
+
     <section>
       <article>
         <div>

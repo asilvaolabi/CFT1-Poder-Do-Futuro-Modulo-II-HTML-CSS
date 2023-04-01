@@ -1,0 +1,92 @@
+/* primeiras propriedades: Lembrando que o asterisco pega o site todo*/
+* {
+  /* define a área de margem nos quatro lados do elemento */
+  margin: 0;
+  /* distância entre o conteúdo de um elemento e suas bordas */
+  padding: 0;
+  /* para configurar uma ou mais das propriedades de contorno */
+  outline: 0;
+}
+
+
+body{
+  /* Definindo a fonte de todo nosso body */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+li {
+  /* retirando as bolinhas das nossas listas */
+  list-style: none;
+}
+
+.header-menu{
+  /* // Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+  display: flex;
+  position: fixed; /*Deixa o nosso header fixo*/
+  width: 100%; /*Largura*/
+  padding: 8px; /*Espaçamento dos 4 lados*/
+  padding-bottom: 32px; /*Espaçamento inferior*/
+  padding-top: 32px;/*Espaçamento superior*/
+  height: 60px; /*Altura*/
+  background-color: #724796; /*cor de fundo da nossa barra de navegação*/
+}
+
+.header-menu nav {
+  display: flex; 
+  justify-content: flex-end; /*Colocando no lado direito da pagina*/
+  width: 100%; /*Largura*/
+}
+
+.lista-menu{
+  display: flex;
+  justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
+  width: 50%; /*Largura*/
+  align-items: center; /*Posicionando no centro*/
+}
+
+/*Pegando os itens com tag a de dentro da nossa lista*/
+.lista-menu li>a {
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: inherit;
+}
+
+.principal{
+  height: 100vh;
+  display: flex;
+  background-color: #EAEAEA;
+}
+
+/* O container é um componente do Bootstrap que garante que o seu layout vai ficar alinhado corretamente na página.
+Ele pode definir as margens laterais da página, ou deixar sem margens e, também, posiciona o conteúdo no
+centro do browser. O container é invisível. */
+.container {
+  margin-right: auto; /*uma margem automática para todos os lados  */
+  margin-left: auto;
+  margin-top: 75px; /*Margem para cima*/
+  max-width: 960px; /*largura maxima*/
+  padding-right: 10px; /* Espaçamento direito*/
+  padding-left: 10px; /*Espaçamento esquerdo*/
+  width: 100%; /*largura*/
+}
+
+.subcontainer-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nome-completo {
+  font-size: 36px;
+  color: #ff4dbc;
+  font-weight: 700; /*espessura*/
+  height: 45px;
+}
+
+.texto-sobre {
+  font-size: 20px;
+  line-height: 32px; /*Espaçamento entre as linhas*/
+}
