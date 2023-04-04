@@ -47,15 +47,15 @@ li {
 
 /*Pegando os itens com tag a de dentro da nossa lista*/
 .lista-menu li>a {
-  color: #FFF;
-  font-size: 18px;
-  text-decoration: inherit;
+  color: #FFF; /*Cor do texto*/
+  font-size: 18px; /*Tamanho da fonte*/
+  text-decoration: inherit; /*tirando o sublinhado*/
 }
 
 .principal{
-  height: 100vh;
+  height: 100vh; /*Altura*/
   display: flex;
-  background-color: #EAEAEA;
+  background-color: #EAEAEA; /*Cor do fundo*/
 }
 
 /* O container é um componente do Bootstrap que garante que o seu layout vai ficar alinhado corretamente na página.
@@ -72,6 +72,7 @@ centro do browser. O container é invisível. */
 }
 
 .subcontainer-principal{
+  /*display, flex-direction e justify content são elementos do flexbox que em conjunto, alinham nossos itens*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +87,76 @@ centro do browser. O container é invisível. */
   height: 45px;
 }
 
+.profissao{
+  color: #C6B5D5;
+  height: 60PX;
+}
+
 .texto-sobre {
   font-size: 20px;
   line-height: 32px; /*Espaçamento entre as linhas*/
 }
+
+.article-lista{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.topico-principal {
+  font-size: 36px;
+  color: #ff4dbc;
+}
+
+.lista-item{
+  padding: 32px;
+}
+
+.lista-item ul li {
+  margin-bottom: 32px;  /*espaçamento entre os items da nossa lista*/
+}
+
+.lista-titulo{
+ margin-bottom: 5px; 
+ font-size: 22px;
+ color: #661e4b;
+ font-weight: 700;
+}
+
+.lista-local{
+  font-size: 18px;
+  color: #2F80ED;
+  
+}
+
+.lista-descricao {
+  font-size: 18px;
+  margin-top: 5px;
+  line-height: 20px; /*Espaçamento entre as linhas*/
+  color: #828282;
+  font-weight: 300;
+}
+
+.rodape{
+  background-color: #724796;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.lista-rodape li{
+  color: #FFF;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.estilo-icone{
+ font-size: 32px;
+ margin-right: 10px;
+}
+
+

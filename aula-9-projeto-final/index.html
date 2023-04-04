@@ -36,37 +36,42 @@
           <h2 class="profissao">Desenvolvedora Front-end</h2>
         </div>
         <div class="texto-sobre">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
-          metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, ut
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
+            metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, UTF-8
+          </p>
         </div>
       </article>
     </section>
 
-    <section>
-      <div>
-        <h3>Formação</h3>
-      </div>
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
 
-      <div>
-        <ul>
-          <li>
-            <p>Ciclo formativo</p>
-            <a href="https://www.pretalab.com/formacao" target="_blank">Pretalab Olabi</a>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
-            </p>
-          </li>
-          <li>
-            <p>Analise e desenvolvimento de sistemas</p>
-            <a href="https://www.ifsp.edu.br/" target="_blank">ifsp</a>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
-            </p>
-          </li>
-        </ul>
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Ciclo formativo</p>
+              <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
+              <p class="lista-descricao">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+              </p>
+            </li>
 
-      </div>
+            <li>
+              <p class="lista-titulo">Analise e desenvolvimento de sistemas</p>
+              <a href="https://www.ifsp.edu.br/" target="_blank" class="lista-local">ifsp</a>
+              <p class="lista-descricao">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+              </p>
+            </li>
+          </ul>
+        </div>
 
+      </article>
     </section>
 
     <section>
@@ -95,19 +100,12 @@
   </main>
 
   <!-- rodapé da nossa página, visível ao usuário -->
-  <footer>
-    <div>
-      <ul>
-        <!-- a tag <i> junto com a class chama o ícone da lib externa que chamamos na tag head -->
-        <li><i class="fas fa-envelope-square"></i>
-          <a href="mailto:amanda.adgti@gmail.com" target="_blank">email@email.com</a>
-        </li>
-        <li><i class="fab fa-linkedin"></i>
-          <a href="https://linkedin.com/" target="_blank">amanda-silva-dev</a>
-        </li>
-        <li><i class="fab fa-github-square"></i>
-          <a href="https://github.com/" target="_blank">asilvaolabi</a>
-        </li>
+  <footer class="rodape">
+    <div class="container">
+      <ul id="contato" class="lista-rodape">
+        <li><i class="fas fa-envelope-square estilo-icone"></i>email@email.com</li>
+        <li href=""><i class="fab fa-linkedin estilo-icone"></i>amanda-silva</li>
+        <li href=""><i class="fab fa-github-square estilo-icone"></i>asilvaolabi</li>
       </ul>
     </div>
   </footer>
